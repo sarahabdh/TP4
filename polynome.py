@@ -2,7 +2,7 @@ def afficher(p):
     """
     Affiche le polynôme p sous la forme 'an X^n + ... + a0'.
     """
-    terms = []
+    terms = [] #
     n = len(p) - 1
     for i, coeff in enumerate(p):
         if coeff != 0:
